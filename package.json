@@ -1,0 +1,33 @@
+{
+  "name": "diswiki",
+  "version": "0.0.1",
+  "description": "Discord Wiki Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iptoux/diswiki.git"
+  },
+  "keywords": [
+    "discord",
+    "discordbot",
+    "bot"
+  ],
+  "author": "iptoux",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/iptoux/diswiki/issues"
+  },
+  "homepage": "https://github.com/iptoux/diswiki#readme",
+  "dependencies": {
+    "bufferutil": "^3.0.5",
+    "discord.js": "^11.4.2",
+    "erlpack": "github:discordapp/erlpack",
+    "libsodium-wrappers": "^0.7.4",
+    "node-opus": "^0.2.9",
+    "opusscript": "0.0.6",
+    "uws": "^9.148.0"
+  }
+}
